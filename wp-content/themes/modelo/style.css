@@ -1,0 +1,2302 @@
+            /* 
+Theme Name: Modelo
+Theme URI: https://agenciaili.com.br/
+Author: Agência ILI
+Author URI: https://agenciaili.com.br/
+Description: Modelo is a compatible theme made with WordPress. It is the best theme for you to sell anything online, beautifuly designed and fully responsive.
+Version: 1.0
+Text Domain: modelo
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: aprender, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, translation-ready, blog, right-sidebar, sticky-post, threaded-comments
+
+*/
+            
+            html {
+                scroll-behavior: smooth;
+            }
+            
+            * {
+                font-family: 'Poppins', sans-serif;
+            }
+            
+            footer {
+                background-color: #205959;
+                margin-bottom: 0;
+            }
+            
+            .imagem-logo-footer {
+                padding: 60px 0;
+            }
+            
+            .topo-site {
+                background-color: #F9F7F2;
+                padding-top: 30px;
+                padding-bottom: 150px;
+            }
+            
+            .imagem-principal-topo {
+                width: 100%;
+            }
+            
+            .imagem-principal-topo img {
+                width: 110%;
+            }
+            
+            .textos-logo-topo h1 {
+                font-size: 85px;
+                font-weight: 500;
+                line-height: 105px;
+                color: #205959;
+                position: relative;
+                width: 120%;
+                z-index: 9;
+            }
+            
+            #subliz-topo {
+                font-size: 88px;
+                font-weight: 500;
+                line-height: 105px;
+                color: #205959;
+                position: relative;
+                width: 120%;
+                z-index: 9;
+            }
+            
+            #subliz-topo::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha-destaque2.png);
+                width: 349px;
+                height: 13px;
+                position: relative;
+                left: 234px;
+                top: -16px;
+            }
+            
+            .itens-principall {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .textos-logo-topo {
+                position: relative;
+                left: 70px;
+            }
+            
+            .textos-logo-topo img {
+                padding-bottom: 70px;
+            }
+            
+            .imagem-principal-topo-moblie {
+                display: none;
+            }
+            
+            .imagem-principal-topo {
+                display: block;
+            }
+            
+            .textos-logo-topo span {
+                font-size: 32px;
+                line-height: 45px;
+                color: #88C540;
+                font-weight: 600;
+                margin-bottom: 30px;
+            }
+            
+            .botao-scroll-next {
+                padding-top: 40px;
+                padding-bottom: 300px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .textos-logo-topo {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    position: relative;
+                    left: 0;
+                }
+                .textos-logo-topo h1 {
+                    font-size: 40px;
+                    line-height: 45px;
+                    position: relative;
+                    width: 100%;
+                    z-index: 9;
+                }
+                #subliz-topo {
+                    font-size: 40px;
+                    line-height: 45px;
+                    position: relative;
+                    width: 100%;
+                    z-index: 9;
+                }
+                #subliz-topo::after {
+                    content: '';
+                    display: block;
+                    background-image: url(./img/linha-destaque2.png);
+                    width: 163px;
+                    height: 13px;
+                    position: relative;
+                    left: 0;
+                    top: -8px;
+                }
+                .imagem-principal-topo-moblie {
+                    display: block;
+                }
+                .imagem-principal-topo-moblie img {
+                    width: 100%;
+                }
+                .imagem-principal-topo {
+                    display: none;
+                }
+                .textos-logo-topo span {
+                    font-size: 28px;
+                    line-height: 35px;
+                }
+                .botao-scroll-next {
+                    padding-top: 0px;
+                    padding-bottom: 100px;
+                }
+            }
+            
+            .card-reunimos {
+                position: absolute;
+                z-index: 99999999999999;
+                left: 0;
+                right: 0;
+                margin-top: -30px;
+            }
+            
+            .texto-principal-reunimos {
+                padding-top: 80px;
+                padding-left: 40px;
+            }
+            
+            .textos-secundary-reunimos {
+                padding-top: 80px;
+                padding-left: 40px;
+            }
+            
+            .container-reunimos {
+                background-color: #205959;
+                border-radius: 15px;
+                position: relative;
+                top: -120px;
+                height: 400px;
+            }
+            
+            .container-reunimos::before {
+                content: '';
+                display: block;
+                width: 120px;
+                height: 120px;
+                background-image: url(./img/icone-arvores2.png);
+                position: absolute;
+                /*background-color: red;*/
+                left: 52px;
+                top: -108px;
+            }
+            /*.container-reunimos::after {
+content: '';
+display: block;
+background-image: url(./img/foto-app-cartaao.png);
+position: relative;
+z-index: 99999999;
+bottom: 30px;
+}*/
+            
+            .texto-principal-reunimos h3 {
+                font-size: 38px;
+                line-height: 50px;
+                font-weight: 600;
+                color: #FFF;
+                letter-spacing: -1px;
+            }
+            
+            .texto-principal-reunimos span {
+                color: #88C540;
+            }
+            
+            .textos-secundary-reunimos p {
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #FFF;
+                letter-spacing: -1px;
+                padding-bottom: 30px;
+            }
+            
+            .btn-quero-ser-amabank a {
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #88C540;
+                padding: 15px 20px;
+                border-radius: 30px;
+            }
+            
+            .imagem-reunimos img {
+                margin-top: -80px;
+            }
+            
+            #love-amabank {
+                font-weight: 600;
+            }
+            
+            .btn-quero-ser-amabank-mobile {
+                display: none;
+            }
+            
+            .btn-quero-ser-amabank-mobile a {
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #88C540;
+                padding: 15px 20px;
+                border-radius: 30px;
+            }
+            
+            .btn-quero-ser-amabank {
+                display: block;
+            }
+            
+            @media only screen and (min-width: 1100px) and (max-width: 1450px) {
+                .container-reunimos {
+                    background-color: transparent;
+                    height: 300px;
+                }
+                .btn-quero-ser-amabank {
+                    position: relative;
+                    min-width: 114%;
+                }
+                .reunimos-itemms {
+                    background-color: #205959;
+                    border-radius: 15px;
+                    width: 1000px;
+                    height: 400px;
+                }
+                .imagem-reunimos img {
+                    padding-left: 100px;
+                }
+                .texto-principal-reunimos {
+                    margin-right: -98px;
+                }
+                .textos-secundary-reunimos {
+                    margin-left: 81px;
+                    margin-right: -77px;
+                }
+                .textos-secundary-reunimos p {
+                    margin-left: 20px;
+                    margin-right: -20px;
+                }
+            }
+            
+            .box-secundary {
+                margin-top: -40px;
+                margin-left: 40px;
+            }
+            
+            @media only screen and (min-width: 1700px) {
+                .imagem-reunimos img {
+                    margin-top: -90px;
+                    padding-left: 120px;
+                }
+                .texto-principal-reunimos h3 {
+                    margin-right: -70px;
+                }
+                .textos-secundary-reunimos {
+                    margin-left: 50px;
+                    margin-right: -50px;
+                }
+                .btn-quero-ser-amabank a {
+                    padding: 20px 26px;
+                }
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .card-reunimos {
+                    width: 95%;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .texto-principal-reunimos {
+                    padding-top: 0px;
+                    padding-left: 0px;
+                    padding: 10px;
+                }
+                .reunimos-itemms {
+                    width: 100%;
+                }
+                .container-reunimos {
+                    position: relative;
+                    height: 100%;
+                }
+                .texto-principal-reunimos h3 {
+                    padding-top: 20px;
+                    font-size: 35px;
+                }
+                .textos-secundary-reunimos {
+                    padding-top: 10px;
+                    padding-left: 10px;
+                }
+                .btn-quero-ser-amabank {
+                    display: none;
+                }
+                .btn-quero-ser-amabank-mobile a {
+                    width: 90%;
+                    font-size: 17px;
+                    padding: 15px 20px;
+                }
+                .imagem-reunimos {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-bottom: 40px;
+                }
+                .imagem-reunimos img {
+                    margin-top: 10px;
+                    width: 100%;
+                }
+                .btn-quero-ser-amabank-mobile {
+                    display: block;
+                    padding-bottom: 40px;
+                    padding-left: 15px;
+                }
+            }
+            
+            @media only screen and (max-width: 340px) {
+                .btn-quero-ser-amabank-mobile {
+                    display: block;
+                    padding-bottom: 20px;
+                }
+                .btn-quero-ser-amabank-mobile a {
+                    width: 100%;
+                    display: block;
+                    padding: 12px;
+                    margin: 0;
+                    font-size: 17px;
+                }
+            }
+            /*************************************************************************************/
+            /*************************************************************************************/
+            /********************  INICIO DO PARALLAX  ******************************************/
+            
+            .wrapper {
+                width: 100%;
+                margin: 0 auto;
+            }
+            
+            main {
+                display: block;
+                background-color: #FFF;
+            }
+            
+            .parallax-container {
+                width: 100%;
+                max-width: 760px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+            
+            .box-parallax {
+                border: 2px solid green;
+                border-radius: 15px;
+            }
+            
+            .box-parallax p {
+                font-size: 20px;
+                font-weight: 400;
+            }
+            
+            .box-parallax span {
+                font-weight: 600;
+            }
+            
+            section.module.parallax {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 170vh !important;
+                width: 100%;
+                position: relative;
+                overflow: hidden;
+                background-position: 50% 50%;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+            }
+            
+            @media only screen and (min-width: 1700px) {
+                section.module.parallax {
+                    height: 100vh !important;
+                    width: 100%;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                }
+            }
+            
+            section.module.parallax::after {
+                content: '';
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: 8;
+                /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6)0, rgba(0, 0, 0, 0.6)40%, #205959 100%);
+background: -moz-linear-gradient(to bottom, rgba(32, 89, 89, 0)0, rgba(32, 89, 89, 0)40%, #205959 100%);
+background: -webkit-linear-gradient(to bottom, rgba(32, 89, 89, 0)0, rgba(32, 89, 89, 0)40%, #205959 100%); */
+                background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6)0, rgba(0, 0, 0, 0.6)40%, #003f3f 100%);
+                background: -moz-linear-gradient(to bottom, rgba(0, 63, 63, 0)0, rgba(0, 63, 63, 0)40%, #003f3f 100%);
+                background: -webkit-linear-gradient(to bottom, rgba(32, 89, 89, 0)0, rgba(32, 89, 89, 0)40%, #003f3f 100%);
+            }
+            
+            section.module.parallax.parallax-1 {
+                color: #FFF;
+            }
+            
+            section.module.parallax-1 {
+                /*background-image: url(./img/teste-parallax.jpg);
+/*background-image: url(./img/amazonia-drone.mp4);
+background-size: cover;*/
+            }
+            
+            section.module.parallax-1 video {
+                position: absolute;
+                height: 100%;
+            }
+            
+            @media only screen and (min-width: 1800px) {
+                section.module.parallax-1 video {
+                    min-width: 100%;
+                }
+            }
+            
+            section.module.content {
+                padding: 40px 0;
+                /* background-color: #205959;*/
+                background-color: #003f3f;
+            }
+            
+            .container-parxx {
+                margin-top: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .textos-principais-parallax h3,
+            .textos-principais-parallax p {
+                color: #FFF;
+                position: relative;
+                z-index: 999;
+            }
+            
+            .textos-principais-parallax h3 {
+                font-size: 38px;
+                line-height: 50px;
+                letter-spacing: -1px;
+                font-weight: 600;
+            }
+            
+            .textos-principais-parallax p {
+                font-size: 20px;
+                font-weight: 400;
+                padding-top: 40px;
+                line-height: 30px;
+                padding-right: 120px;
+            }
+            
+            .destacado {
+                font-weight: 600;
+            }
+            
+            .sublinhado::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha.png);
+                width: 146px;
+                height: 11px;
+                position: relative;
+                left: 125px;
+                top: -8px;
+            }
+            
+            .boxes-parallax {
+                position: relative;
+                z-index: 999;
+                margin-top: 20px;
+            }
+            
+            .box-parallax {
+                width: 446px;
+                height: 250px;
+                background-color: rgba(136, 197, 64, 0.1);
+                padding: 60px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .container-parxx {
+                    margin-top: 800px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                section.module.parallax {
+                    height: 100% !important;
+                    width: 100%;
+                }
+                .textos-principais-parallax h3 {
+                    font-size: 35px;
+                    line-height: 40px;
+                }
+                .sublinhado::after {
+                    width: 122px;
+                    left: 115px;
+                    top: -4px;
+                }
+                .textos-principais-parallax p {
+                    font-size: 18px;
+                    padding-top: 10px;
+                    padding-right: 0px;
+                }
+                .box-parallax {
+                    width: 100%;
+                    height: 100%;
+                    padding: 20px;
+                    min-height: 150px;
+                }
+                .box-parallax p {
+                    font-size: 18px;
+                }
+                .box-secundary {
+                    margin-top: 20px;
+                    margin-left: 0px;
+                }
+            }
+            
+            .items-garrafs {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .image-garrafs img {
+                width: 100%;
+            }
+            
+            .text-garrafs h3 {
+                color: #FFF;
+                font-size: 38px;
+                line-height: 50px;
+                font-weight: 600;
+                padding-right: 50px;
+                padding-bottom: 40px;
+            }
+            
+            .text-garrafs p {
+                color: #FFF;
+                font-size: 19px;
+                font-weight: 400;
+                padding-right: 150px;
+            }
+            
+            .sublinhado-garrafs::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha.png);
+                width: 146px;
+                height: 11px;
+                position: relative;
+                left: 95px;
+                top: -2px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .text-garrafs h3 {
+                    padding-right: 0px;
+                    padding-bottom: 40px;
+                }
+                .sublinhado-garrafs::after {
+                    left: 0;
+                }
+                .text-garrafs p {
+                    font-size: 21px;
+                    padding-right: 10px;
+                }
+            }
+            /********************  FIM DO PARALLAX  ******************************************/
+            /*************************************************************************************/
+            /*************************************************************************************/
+            
+            .fieldset-border {
+                border: 2px groove #88c540 !important;
+                padding: 0 1.4em 1.4em 1.4em !important;
+                margin: 0 0 1.5em 0 !important;
+                -webkit-box-shadow: 0px 0px 0px 0px #000;
+                box-shadow: 0px 0px 0px 0px #000;
+                border-radius: 20px;
+            }
+            
+            .fieldset-border .legend-border {
+                font-size: 26px;
+                font-weight: 600;
+                line-height: 30px;
+                text-align: center !important;
+                width: auto;
+                padding: 0 10px;
+                border-bottom: none;
+            }
+            
+            .estatistics {
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                padding-top: 70px;
+                padding-bottom: 60px;
+            }
+            
+            .graphs-amabank {
+                background-image: url(./img/fundo-mapa2.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: top center;
+                color: #FFF;
+                padding-bottom: 100px;
+            }
+            
+            .grafico-amabank {
+                padding-top: 100px;
+            }
+            
+            .percent-item h2 {
+                font-size: 61px;
+                font-weight: 600;
+            }
+            
+            .percent1 h2::after {
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #205959;
+                vertical-align: middle;
+                border: 1px solid #FFFBF2;
+                border-radius: 7px;
+                margin-left: 20px;
+            }
+            
+            .percent1 {
+                padding-left: 50px;
+            }
+            
+            .percent2 {
+                margin-bottom: 65px;
+                padding-left: 20px;
+            }
+            
+            .percent3 {
+                padding-left: 20px;
+            }
+            
+            .percent2 h2::before {
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #88C540;
+                vertical-align: middle;
+                border: 1px solid #FFFBF2;
+                border-radius: 7px;
+                margin-right: 20px;
+            }
+            
+            .percent3 h2::before {
+                content: '';
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                background-color: #324632;
+                vertical-align: middle;
+                border: 1px solid #FFFBF2;
+                border-radius: 7px;
+                margin-right: 20px;
+            }
+            
+            .percent-item p {
+                font-size: 18px;
+                font-weight: 400;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .grafico-amabank {
+                    padding-top: 60px;
+                }
+                .image-graphss img {
+                    width: 100%;
+                }
+                .fieldset-border .legend-border {
+                    font-size: 23px;
+                }
+                .percent1 {
+                    padding-left: 0px;
+                }
+                .percent2 {
+                    padding-left: 0px;
+                    margin-bottom: 0px;
+                }
+                .percent3 {
+                    padding-left: 0px;
+                }
+                .percent-item h2 {
+                    font-size: 40px;
+                }
+                .percents-p2 {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                }
+                .estatistics {
+                    padding-bottom: 30px;
+                }
+            }
+            
+            @media only screen and (max-width: 340px) {
+                .percent-item h2 {
+                    font-size: 35px;
+                }
+                .percent3 h2::before {
+                    margin-right: 15px;
+                }
+                .percent2 h2::before {
+                    margin-right: 15px;
+                }
+                .percent-item p {
+                    font-size: 17px;
+                    letter-spacing: -1px;
+                }
+            }
+            /*******************************************************************/
+            /*******************************************************************/
+            
+            .traz-tecnologia {
+                background-color: #003f3f;
+                color: #FFF;
+                padding-bottom: 240px;
+            }
+            
+            .items-traztec {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .traztec-imagem img {
+                width: 100%;
+            }
+            
+            .traztec-textos {
+                padding-right: 130px;
+            }
+            
+            .traztec-textos h3 {
+                font-size: 26px;
+                font-weight: 600;
+                line-height: 35px;
+                margin-bottom: 20px;
+            }
+            
+            .traztec-textos p {
+                font-size: 21px;
+                font-weight: 400;
+                line-height: 28px;
+                margin-bottom: 50px;
+            }
+            
+            .btn-quero-ser-amabank-tec {
+                display: block;
+            }
+            
+            .btn-quero-ser-amabank-tec-mobile {
+                display: none;
+            }
+            
+            .btn-quero-ser-amabank-tec a {
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #88C540;
+                padding: 15px 20px;
+                border-radius: 30px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .traztec-textos {
+                    padding-right: 10px;
+                }
+                .btn-quero-ser-amabank-tec {
+                    display: none;
+                }
+                .btn-quero-ser-amabank-tec-mobile {
+                    display: block;
+                    margin-top: 20px;
+                }
+                .btn-quero-ser-amabank-tec-mobile a {
+                    color: #FFF;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    background-color: #88C540;
+                    padding: 15px 20px;
+                    border-radius: 30px;
+                    width: 90%;
+                    font-size: 17px;
+                }
+            }
+            /******************************************************************/
+            
+            .cuidar-amazonia {
+                position: absolute;
+                z-index: 99999999999999;
+                left: 0;
+                right: 0;
+                margin-top: -140px;
+            }
+            
+            .cuida-amaz {
+                background-color: #FFF;
+                border-radius: 20px;
+                box-shadow: 0px 10px 40px #122E2E40;
+            }
+            
+            .cuidar-amaz-items {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .textos-cuidar-amazonia {
+                padding-left: 60px;
+            }
+            
+            .textos-cuidar-amazonia h2 {
+                font-size: 38px;
+                line-height: 45px;
+                font-weight: 600;
+                color: #205959;
+                padding-right: 100px;
+                margin-bottom: 40px;
+            }
+            
+            .textos-cuidar-amazonia p {
+                letter-spacing: -.5px;
+                font-size: 21px;
+                line-height: 28px;
+                color: #818181;
+                font-weight: 400;
+            }
+            
+            #separated-parag {
+                padding-top: 30px;
+                padding-right: 40px;
+            }
+            
+            #sublizz {
+                font-size: 21px;
+                line-height: 28px;
+                color: #205959;
+                font-weight: 900;
+                text-decoration: underline #818181;
+            }
+            
+            .sublizzgreen::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha2.png);
+                width: 246px;
+                height: 10px;
+                position: relative;
+                left: 0;
+                top: -6px;
+            }
+            
+            #separated-parag1 {
+                line-height: 10px;
+                padding-top: 30px;
+            }
+            
+            #separated-parag2 {
+                line-height: 10px;
+                font-weight: 900;
+            }
+            
+            .imagem-cuidar-amazonia {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .imagem-cuidar-amazonia img {
+                width: 100%;
+                border-radius: 0 20px 20px 0;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .textos-cuidar-amazonia {
+                    padding-left: 15px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    padding-right: 0px;
+                    margin-bottom: 40px;
+                    padding-top: 30px;
+                }
+                .imagem-cuidar-amazonia {
+                    padding: 10px;
+                }
+                .imagem-cuidar-amazonia img {
+                    border-radius: 20px
+                }
+            }
+            
+            @media only screen and (max-width: 340px) {
+                .textos-cuidar-amazonia h2 {
+                    letter-spacing: -1.5px;
+                }
+            }
+            /****************************************************************************/
+            
+            .reduzir-carbono {
+                padding-top: 600px;
+                background-color: #F9F7F2;
+            }
+            
+            .title-slider-reduzir h2 {
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 48px;
+                color: #205959;
+            }
+            
+            .reduz-sublizz::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha3.png);
+                width: 161px;
+                height: 10px;
+                position: relative;
+                top: -6px;
+                right: -679px;
+            }
+            
+            .slider-reduz-carbono {
+                padding-top: 40px;
+                padding-bottom: 0px;
+            }
+            
+            .item-carbono {
+                min-height: 260px;
+                border: 2px solid #818181;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                position: relative;
+                padding-top: 60px;
+                padding-bottom: 10px;
+            }
+            
+            .item-carbono img {
+                position: relative !important;
+                top: -60px;
+                margin-bottom: -40px;
+                z-index: 99999;
+            }
+            
+            @media only screen and (max-width: 760px) {}
+            
+            .item-slider.slider1 {
+                display: flex !important;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .item-slider.slider1 img {
+                position: relative !important;
+                top: 60px;
+                z-index: 99999;
+            }
+            
+            .slick-prev:before {
+                /* content: '\2B9C' !important;*/
+                content: '' !important;
+                display: block;
+                background-image: url(./img/seta-prev.png);
+                width: 32px;
+                height: 56px;
+                position: relative;
+                top: 20px !important;
+                left: -20px;
+            }
+            
+            .slick-next:before {
+                /*content: '\2B9E' !important;*/
+                content: '' !important;
+                display: block;
+                background-image: url(./img/seta-next.png);
+                width: 32px;
+                height: 56px;
+                position: relative;
+                top: 20px !important;
+                left: 0 !important;
+            }
+            
+            .slick-prev:before,
+            .slick-next:before {
+                /*font-family: 'slick';*/
+                font-size: 50px !important;
+                line-height: 1;
+                opacity: .75;
+                color: #818181 !important;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            
+            .item-carbono p {
+                font-size: 18px;
+                font-weight: 500;
+                color: #818181;
+                line-height: 27px;
+                text-align: center;
+                padding: 0 70px;
+                padding-top: 20px;
+            }
+            
+            #diferentao0 {
+                padding: 0 20px;
+                padding-top: 20px;
+            }
+            
+            .item-carbono h5 {
+                font-size: 22px;
+                font-weight: 500;
+                color: #205959;
+                line-height: 32px;
+                text-align: center;
+                padding: 0 60px;
+                padding-bottom: 20px;
+            }
+            
+            #difers1 {
+                padding-top: 0px;
+                margin-bottom: -30px;
+            }
+            
+            #diferentao {
+                font-size: 22px;
+                line-height: 28px;
+                font-weight: 600;
+                color: #88C540;
+            }
+            
+            .btn-quero-ser-amabank-carbono {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            
+            .btn-quero-ser-amabank-carbono a {
+                color: #FFF;
+                text-transform: uppercase;
+                font-size: 20px;
+                font-weight: 500;
+                background-color: #88C540;
+                padding: 15px 20px;
+                border-radius: 30px;
+            }
+            
+            .reduz-mobile {
+                display: none;
+            }
+            
+            .reduz-desk {
+                display: block;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .reduzir-carbono {
+                    padding-top: 830px;
+                }
+                .reduz-mobile {
+                    display: block;
+                    margin-top: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                .reduz-desk {
+                    display: none;
+                }
+                .reduz-sublizz-mobile {
+                    width: 200px;
+                    text-align: center;
+                }
+                .reduz-sublizz-mobile::after {
+                    content: '';
+                    display: block;
+                    background-image: url(./img/linha3.png);
+                    width: 174px;
+                    height: 10px;
+                    position: relative;
+                    top: -6px;
+                    right: -10px;
+                }
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .slick-prev {
+                    margin-top: 10px;
+                    left: 29px !important;
+                    top: 101% !important;
+                }
+                .slick-next {
+                    margin-top: 10px;
+                    right: 31px !important;
+                    top: 101% !important;
+                }
+                .slider-reduz-carbono {
+                    margin-bottom: 60px;
+                }
+                .btn-quero-ser-amabank-carbono a {
+                    color: #FFF;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    background-color: #88C540;
+                    padding: 15px 20px;
+                    border-radius: 30px;
+                    /* width: 90%;*/
+                    font-size: 17px;
+                }
+            }
+            /************************************************************************/
+            /************************************************************************/
+            
+            .mission-preservar {
+                background-color: #324632;
+                color: #FFF;
+                padding: 100px 0;
+            }
+            
+            .title-miss-preservar h2 {
+                font-size: 38px;
+                line-height: 50px;
+                font-weight: 600;
+                padding-right: 50px;
+            }
+            
+            .subl-mission::after {
+                content: '';
+                display: block;
+                background-image: url(./img/linha4.png);
+                width: 186px;
+                height: 10px;
+                position: relative;
+                left: 360px;
+                top: -6px;
+            }
+            
+            .items-prservz {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .lista-beneficios {
+                width: 130%;
+                border: 2px solid #88C540;
+                border-radius: 20px;
+                padding-left: 30px;
+            }
+            
+            .lista-beneficios p {
+                font-size: 18px;
+                line-height: 32px;
+                font-weight: 400;
+                letter-spacing: -.5px;
+            }
+            
+            .imagem-miss-preservar img {
+                width: 105%;
+            }
+            
+            .itemlistapreser {
+                flex: 0 0 40%;
+                max-width: 40%;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+            
+            #item-lista::before {
+                display: inline-block;
+                position: relative;
+                content: '';
+                background-color: #FFF;
+                width: 5px;
+                height: 5px;
+                border: none;
+                border-radius: 50px;
+                right: 10px;
+                top: -3px;
+            }
+            
+            .miss-pres-desk {
+                display: block;
+            }
+            
+            .miss-pres-mobile {
+                display: none;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .miss-pres-desk {
+                    display: none;
+                }
+                .miss-pres-mobile {
+                    display: block;
+                }
+                .misss-mobile {
+                    width: 250px;
+                }
+                .misss-mobile::after {
+                    content: '';
+                    display: block;
+                    background-image: url(./img/linha4.png);
+                    width: 186px;
+                    height: 10px;
+                    position: relative;
+                    left: 40px;
+                    top: -6px;
+                }
+                .mission-preservar {
+                    padding: 50px 0;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 40px;
+                    line-height: 45px;
+                    padding-right: 10px;
+                }
+                #sob-misssion {
+                    margin-top: -9px;
+                    margin-bottom: 40px
+                }
+                .lista-beneficios {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    margin-left: 0px;
+                }
+                .itemlistapreser {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                    margin-top: 30px;
+                    margin-bottom: 20px;
+                }
+                .items-prservz {
+                    /*margin-right: 0px;
+margin-left: 0px;*/
+                }
+                .imagem-miss-preservar img {
+                    width: 100%;
+                }
+            }
+            /*********************************************************************/
+            /*********************************************************************/
+            
+            .back-contato {
+                background-color: #FFFBF2;
+            }
+            
+            .contato-amabank {
+                /* background-image: url(./img/fundo-contato2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center bottom;*/
+            }
+            
+            .textos-contato-amabank h2 {
+                font-size: 38px;
+                font-weight: 600;
+                line-height: 48px;
+                color: #205959;
+                padding-right: 65px;
+                padding-top: 100px;
+            }
+            
+            .dstk-contanto {
+                color: #88C540;
+            }
+            
+            .textos-contato-amabank p {
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #818181;
+                padding-right: 85px;
+                padding-top: 30px;
+                padding-bottom: 60px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .textos-contato-amabank h2 {
+                    padding-right: 10px;
+                    padding-top: 40px;
+                }
+                .textos-contato-amabank p {
+                    padding-right: 10px;
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                }
+            }
+            /********   INÍCIO FORMULÁRIO DE CONTATO AMABANK  ********************/
+            /*******************************************************************************/
+            
+            .amab-form-contato {
+                /* background-color: red;*/
+                padding-bottom: 80px;
+            }
+            
+            .formulario-amabank-completo input {
+                width: 100%;
+                padding: 15px;
+                border-radius: 5px;
+                border: solid 1px #c9c9c9;
+                background-color: #FFF;
+                color: #818181;
+            }
+            
+            .campos-midles {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 50px;
+            }
+            
+            .campos-midles1 {
+                margin-right: 10px;
+            }
+            
+            .campo-nome {
+                margin-bottom: 30px;
+            }
+            
+            .campos-midles1,
+            .campos-midles2 {
+                width: 100% !important;
+            }
+            
+            input[type="date"]::before {
+                content: 'Data nascimento - ';
+                display: inline-block;
+                color: #818181;
+            }
+            
+            input[type="radio"]::before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: #FFF solid 10px;
+                border-radius: 5px;
+                -webkit-box-shadow: 0px 0px 2px 2px #ccc;
+                box-shadow: 0px 0px 2px 2px #ccc;
+                background-color: transparent;
+                position: relative;
+                top: -4px;
+                left: 13px;
+            }
+            
+            input[type="radio"]:checked::before {
+                content: '';
+                display: block;
+                width: 20px;
+                height: 20px;
+                border: #003f3f solid 10px;
+                border-radius: 5px;
+                -webkit-box-shadow: 0px 0px 2px 2px #FFF;
+                box-shadow: 0px 0px 2px 2px #FFF;
+                background-color: transparent;
+                position: relative;
+                top: -4px;
+                left: 13px;
+            }
+            
+            .all-radios-amabank {
+                color: #818181;
+            }
+            /*#envia-amabank {
+width: 150px;
+background-color: #88c540;
+color: #FFF;
+float: left;
+text-transform: uppercase;
+padding: 20px 60px;
+font-size: 18px;
+font-weight: 600;
+text-align: center;
+}*/
+            
+            .btn-envia-amabank input[type="submit"] {
+                width: 170px;
+                background-color: #88c540;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: 600;
+                text-align: center;
+                text-transform: uppercase;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .campos-midles {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 50px;
+                }
+                .campos-midles1 {
+                    margin-right: 0px;
+                    margin-bottom: 30px;
+                }
+                .amab-form-contato {
+                    padding-bottom: 0px;
+                }
+            }
+            /*******************************************************************************/
+            /********   FIM FORMULÁRIO DE CONTATO AMABANK  ********************/
+            
+            .yoyiuy img {
+                padding: 0px;
+                width: 100%;
+                margin-top: -445px;
+            }
+            
+            @media only screen and (max-width: 760px) {
+                .yoyiuy img {
+                    padding: 0px;
+                    width: 100%;
+                    margin-top: 0px;
+                }
+            }
+            /********************************************************************/
+            /*************************  iphone 7 ********************************/
+            /*
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+input[type="radio"]:checked::before {
+content: '';
+display: block;
+width: 20px;
+height: 20px;
+border: red solid 10px !important;
+border-radius: 5px;
+-webkit-box-shadow: 0px 0px 2px 2px #fff;
+box-shadow: 0px 0px 2px 2px #fff;
+background-color: transparent;
+position: relative;
+top: -4px;
+left: 13px;
+}
+}*/
+            /**************************************************************************/
+            /*****************  iphones em geral  ************************************/
+            
+            @media only screen and (max-width: 600px) {
+                .formulario-amabank-completo {
+                    width: 100%;
+                    height: 850px;
+                }
+                #precups {
+                    padding-right: 100px !important;
+                }
+                input[type="radio"]:checked::before {
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    border: blue solid 10px !important;
+                    border-radius: 5px;
+                    -webkit-box-shadow: 0px 0px 2px 2px #fff;
+                    box-shadow: 0px 0px 2px 2px #fff;
+                    background-color: transparent;
+                    position: relative;
+                    top: -4px;
+                    left: 13px;
+                }
+            }
+            
+            .topo-site-tablet {
+                display: none;
+            }
+            
+            .topo-site {
+                display: block;
+            }
+            /*
+.card-reunimos {
+    display: block;
+}
+
+.card-reunimos-tablet {
+    display: none;
+}*/
+            
+            .imagem-cuidar-amazonia {
+                display: block;
+            }
+            
+            .cud-tablet {
+                display: none;
+            }
+            /**************************************************************************/
+            /**************************************************************************/
+            /************  INICIO AJUSTES FINAIS **************************************/
+            
+            @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+                .topo-site {
+                    display: none;
+                }
+                .topo-site-tablet {
+                    display: block;
+                }
+                .textos-logo-topo {
+                    left: -10px;
+                    flex: 0 0 50%;
+                    max-width: 50%;
+                }
+                .textos-logo-topo h1 {
+                    font-size: 50px;
+                    width: 100%;
+                    line-height: 60px;
+                }
+                .textos-logo-topo span {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+                .imagem-principal-topo {
+                    display: block;
+                    margin-top: -366px;
+                }
+                .imagem-principal-topo img {
+                    width: 150%;
+                    padding-top: 30px;
+                    margin-left: -76px;
+                }
+                .textos-logo-topo img {
+                    max-width: 100%;
+                    margin-top: 15px;
+                }
+                #subliz-topo {
+                    font-size: 50px;
+                    width: 100%;
+                    line-height: 60px;
+                }
+                .reduz-sublizz::after {
+                    right: -468px;
+                }
+                #subliz-topo::after {
+                    width: 217px;
+                    height: 13px;
+                    position: relative;
+                    left: -7px;
+                    top: -11px;
+                }
+                .botao-scroll-next {
+                    padding-top: 40px;
+                    padding-bottom: 334px;
+                }
+                /* .card-reunimos {
+        display: none;
+    }
+    .card-reunimos-tablet {
+        display: block;
+    }*/
+                .container-reunimos {
+                    top: -201px;
+                    height: 300px;
+                    padding-top: 20px;
+                }
+                .texto-principal-reunimos {
+                    padding-top: 10px;
+                    padding-left: 10px;
+                }
+                .texto-principal-reunimos h3 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                .imagem-reunimos img {
+                    margin-top: -14px;
+                    max-width: 115%;
+                }
+                .textos-secundary-reunimos {
+                    padding-top: 10px;
+                    padding-left: 30px;
+                }
+                .textos-secundary-reunimos p {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+                .btn-quero-ser-amabank {
+                    margin-left: -20px;
+                    margin-right: 0px;
+                    padding: 0 !important;
+                }
+                .btn-quero-ser-amabank a {
+                    font-size: 13px;
+                    padding: 10px 15px;
+                }
+                .container-parxx {
+                    margin-top: 150px;
+                }
+                .textos-principais-parallax h3 {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+                section.module.parallax {
+                    height: 100vh !important;
+                }
+                .sublinhado::after {
+                    width: 121px;
+                    height: 11px;
+                    left: 84px;
+                    top: -8px;
+                }
+                .textos-principais-parallax p {
+                    font-size: 19px;
+                    padding-top: 20px;
+                    padding-right: 0px;
+                }
+                .boxes-parallax {
+                    margin-top: 0px;
+                    margin-left: -30px;
+                    margin-right: 30px;
+                }
+                .box-parallax {
+                    width: 333px;
+                    height: 221px;
+                    padding: 0px;
+                    padding-top: 50px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                }
+                .box-first {
+                    margin-top: 30px;
+                }
+                .box-secundary {
+                    margin-bottom: 60px;
+                }
+                section.module.content {
+                    padding: 10px 0;
+                }
+                .image-garrafs img {
+                    width: 100%;
+                }
+                .text-garrafs h3 {
+                    font-size: 30px;
+                    padding-right: 0px;
+                    padding-bottom: 20px;
+                    line-height: 40px;
+                }
+                .text-garrafs p {
+                    font-size: 19px;
+                    padding-right: 15px;
+                }
+                .sublinhado-garrafs::after {
+                    width: 108px;
+                    height: 11px;
+                    left: 68px;
+                    top: -9px;
+                }
+                .items-garrafs {
+                    padding-top: 70px;
+                }
+                .fieldset-border .legend-border {
+                    font-size: 20px;
+                    padding: 0 10px;
+                }
+                .image-graphss img {
+                    max-width: 100%;
+                }
+                .percent1 {
+                    padding-left: 0px;
+                }
+                .percent-item h2 {
+                    font-size: 40px;
+                }
+                .percents-project,
+                .image-graphss {
+                    padding-left: 0px;
+                    padding-right: 0px;
+                }
+                .estatistics {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-top: 20px;
+                    padding-bottom: 15px;
+                }
+                .traztec-textos {
+                    padding-right: 10px;
+                }
+                .traztec-textos h3 {
+                    font-size: 23px;
+                    margin-bottom: 20px;
+                }
+                .traztec-textos p {
+                    font-size: 19px;
+                    margin-bottom: 50px;
+                }
+                .btn-quero-ser-amabank-tec a {
+                    font-size: 16px;
+                    padding: 10px 15px;
+                }
+                .textos-cuidar-amazonia {
+                    padding-left: 15px;
+                    padding-top: 10px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    font-size: 30px;
+                    padding-right: 10px;
+                    margin-bottom: 20px;
+                    line-height: 40px;
+                }
+                .textos-cuidar-amazonia p {
+                    font-size: 19px;
+                    line-height: 25px;
+                }
+                #separated-parag {
+                    padding-top: 10px;
+                    padding-right: 10px;
+                }
+                #separated-parag1 {
+                    line-height: 10px;
+                    padding-top: 10px;
+                }
+                .imagem-cuidar-amazonia {
+                    display: none;
+                }
+                .imagem-cuidar-amazonia img {
+                    max-width: 100%;
+                    object-fit: cover;
+                }
+                #separated-parag2 {
+                    line-height: 10px;
+                    font-weight: 900;
+                    padding-bottom: 30px;
+                }
+                .cud-tablet {
+                    display: block;
+                    max-width: 100%;
+                }
+                .cud-tablet img {
+                    object-fit: cover;
+                    max-width: 100%;
+                    margin-left: -10px;
+                }
+                .reduzir-carbono {
+                    padding-top: 400px;
+                }
+                .item-carbono {
+                    min-height: 283px;
+                }
+                .slick-next:before {
+                    top: 20px !important;
+                    left: -18px !important;
+                }
+                .slick-prev:before {
+                    left: 5px !important;
+                }
+                .btn-quero-ser-amabank-carbono a {
+                    font-size: 16px;
+                    padding: 10px 15px;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 30px;
+                    padding-right: 15px;
+                    line-height: 40px;
+                }
+                .mission-preservar {
+                    padding: 70px 0;
+                }
+                .miss-pres-desk {
+                    flex: 0 0 75%;
+                    max-width: 75%;
+                    margin-bottom: 20px;
+                }
+                .subl-mission::after {
+                    width: 162px;
+                    height: 10px;
+                    left: 274px;
+                    top: -6px;
+                }
+                /*
+            .benefs-itenzz {
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+            */
+                .lista-beneficios {
+                    width: 150%;
+                }
+                .imagem-miss-preservar img {
+                    width: 115%;
+                }
+                .itemlistapreser:nth-child(2) {
+                    margin-left: 10px;
+                    margin-right: -10px;
+                }
+                .textos-contato-amabank h2 {
+                    font-size: 30px;
+                    padding-right: 15px;
+                    padding-top: 80px;
+                    line-height: 40px;
+                }
+                .textos-contato-amabank p {
+                    font-size: 19px;
+                    padding-right: 15px;
+                    padding-top: 20px;
+                    padding-bottom: 40px;
+                }
+                .amab-form-contato {
+                    padding-bottom: 220px;
+                    padding-right: 0px;
+                    padding-left: 0px;
+                }
+                .sublizzgreen::after {
+                    width: 247px;
+                    height: 10px;
+                    left: 25px;
+                    top: -8px;
+                }
+                .imagem-logo-footer img {
+                    max-width: 100%;
+                }
+                .textos-contato-amabank {
+                    padding-left: 0px;
+                }
+            }
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+                .textos-logo-topo h1 {
+                    font-size: 65px;
+                    width: 110%;
+                }
+                #subliz-topo {
+                    font-size: 65px;
+                    width: 120%;
+                }
+                #subliz-topo::after {
+                    width: 288px;
+                    height: 13px;
+                    left: 155px;
+                    top: -16px;
+                }
+                .texto-principal-reunimos {
+                    padding-top: 50px;
+                    padding-left: 20px;
+                }
+                .container-reunimos {
+                    top: -120px;
+                    height: 350px;
+                }
+                .texto-principal-reunimos h3 {
+                    font-size: 35px;
+                }
+                .textos-secundary-reunimos {
+                    padding-top: 50px;
+                    padding-left: 40px;
+                }
+                .btn-quero-ser-amabank a {
+                    font-size: 16px;
+                }
+                .imagem-reunimos img {
+                    width: 110%;
+                    margin-top: -15px;
+                }
+                .sublinhado-garrafs::after {
+                    left: -8px;
+                    top: -2px;
+                }
+                .text-garrafs p {
+                    padding-right: 100px;
+                }
+                .percent1 {
+                    padding-left: 15px;
+                }
+                .image-graphss img {
+                    margin-left: -35px;
+                    margin-right: 35px;
+                }
+                .btn-quero-ser-amabank-tec a {
+                    font-size: 16px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    font-size: 35px;
+                    padding-right: 40px;
+                    margin-bottom: 30px;
+                }
+                .sublizzgreen::after {
+                    width: 230px;
+                    left: 0;
+                    top: -6px;
+                }
+                #separated-parag {
+                    padding-top: 20px;
+                    padding-right: 40px;
+                }
+                #separated-parag1 {
+                    padding-top: 20px;
+                }
+                .reduz-sublizz::after {
+                    right: -590px;
+                }
+                .reduzir-carbono {
+                    padding-top: 500px;
+                }
+                .item-carbono {
+                    min-height: 288px;
+                }
+                .slick-next:before {
+                    left: -10px !important;
+                }
+                .slick-prev:before {
+                    left: 0 !important;
+                }
+                .btn-quero-ser-amabank-carbono a {
+                    font-size: 16px;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 38px;
+                    padding-right: 74px;
+                    line-height: 60px;
+                }
+                .miss-pres-desk {
+                    flex: 0 0 70%;
+                    max-width: 70%;
+                }
+                .subl-mission::after {
+                    width: 186px;
+                    height: 10px;
+                    left: 349px;
+                }
+                .amab-form-contato {
+                    padding-bottom: 130px;
+                }
+                .box-parallax {
+                    width: 420px;
+                    height: 238px;
+                    padding: 54px;
+                }
+            }
+            
+            @media only screen and (min-width: 1300px) and (max-width: 1430px) {
+                .imagem-reunimos img {
+                    padding-left: 172px;
+                }
+                .container-parxx {
+                    margin-top: 150px;
+                }
+            }
+            
+            @media only screen and (min-width: 1439px) and (max-width: 1600px) {
+                .imagem-reunimos img {
+                    padding-left: 199px;
+                }
+            }
+            
+            @media only screen and (min-width: 376px) and (max-width: 425px) {
+                .reunimos-itemms {
+                    margin-left: 0px;
+                }
+                .btn-quero-ser-amabank-mobile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 0px;
+                }
+                .btn-quero-ser-amabank-mobile a {
+                    text-align: center;
+                }
+                .btn-quero-ser-amabank-tec-mobile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .btn-quero-ser-amabank-tec-mobile a {
+                    text-align: center;
+                }
+                /***************************************************/
+                .texto-principal-reunimos h3 {
+                    font-size: 30px;
+                    padding-left: 10px;
+                }
+                .textos-secundary-reunimos {
+                    padding-right: 0px;
+                }
+                .textos-secundary-reunimos p {
+                    font-size: 19px;
+                    padding-left: 10px;
+                }
+                .box-parallax p {
+                    font-size: 18px;
+                    padding: 10px 30px;
+                }
+                .text-garrafs h3 {
+                    font-size: 35px;
+                    padding-right: 0px;
+                }
+                .sublinhado-garrafs::after {
+                    width: 120px;
+                    height: 11px;
+                    left: 86px;
+                    top: -7px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    font-size: 35px;
+                    padding-right: 0px;
+                    margin-bottom: 40px;
+                }
+                .sublizzgreen::after {
+                    width: 234px;
+                    height: 10px;
+                    left: 82px;
+                    top: -6px;
+                }
+                .title-slider-reduzir h2 {
+                    font-size: 35px;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 35px;
+                    padding-right: 10px;
+                }
+                .misss-mobile::after {
+                    width: 186px;
+                    height: 10px;
+                    left: 25px;
+                    top: -6px;
+                }
+                .textos-contato-amabank h2 {
+                    font-size: 35px;
+                }
+                .textos-contato-amabank p {
+                    font-size: 19px;
+                }
+            }
+            
+            @media only screen and (min-width: 341px) and (max-width: 375px) {
+                .reunimos-itemms {
+                    margin-left: 0px;
+                }
+                .btn-quero-ser-amabank-mobile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 0px;
+                }
+                .btn-quero-ser-amabank-tec-mobile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .btn-quero-ser-amabank-tec-mobile a {
+                    text-align: center;
+                }
+                .btn-quero-ser-amabank-mobile a {
+                    text-align: center;
+                }
+                .text-garrafs h3 {
+                    font-size: 35px;
+                }
+                .sublinhado-garrafs::after {
+                    width: 124px;
+                    height: 11px;
+                    left: -7px;
+                    top: -6px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    font-size: 35px;
+                }
+                .sublizzgreen::after {
+                    width: 233px;
+                }
+                .textos-cuidar-amazonia p {
+                    font-size: 19px;
+                    padding-right: 30px;
+                }
+                .title-slider-reduzir h2 {
+                    font-size: 35px;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 35px;
+                }
+                .misss-mobile::after {
+                    width: 186px;
+                    height: 10px;
+                    left: 24px;
+                    top: -6px;
+                }
+                .textos-contato-amabank h2 {
+                    font-size: 35px;
+                }
+                .textos-contato-amabank p {
+                    font-size: 19px;
+                }
+            }
+            
+            @media only screen and (max-width: 340px) {
+                .reunimos-itemms {
+                    margin-left: 0px;
+                }
+                .btn-quero-ser-amabank-tec-mobile {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .btn-quero-ser-amabank-tec-mobile a {
+                    text-align: center;
+                    padding: 15px 10px;
+                }
+                .btn-quero-ser-amabank-mobile {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding-left: 0px;
+                }
+                .btn-quero-ser-amabank-mobile a {
+                    text-align: center;
+                }
+                .text-garrafs h3 {
+                    font-size: 35px;
+                }
+                .sublinhado-garrafs::after {
+                    width: 127px;
+                    height: 11px;
+                    left: -4px;
+                    top: -6px;
+                }
+                .textos-cuidar-amazonia h2 {
+                    font-size: 35px;
+                }
+                .sublizzgreen::after {
+                    width: 218px;
+                    height: 10px;
+                    left: 0;
+                    top: -6px;
+                }
+                .title-slider-reduzir h2 {
+                    font-size: 35px;
+                }
+                .title-miss-preservar h2 {
+                    font-size: 35px;
+                }
+                .misss-mobile::after {
+                    left: 24px;
+                    top: -6px;
+                }
+                .textos-contato-amabank h2 {
+                    font-size: 35px;
+                }
+                .textos-contato-amabank p {
+                    font-size: 19px;
+                    padding-right: 15px
+                }
+            }
+
+			/************************** footer adicionados por ultimo ********/
+            
+            footer {
+                color: #FFF;
+            }
+            
+            .row-itens-footer-amabank {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+            
+            .endere-amabank-footer p {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+            
+            .endere-contato-amabank-footer p {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 10px;
+            }
+            
+            .endere-contato-amabank-footer span {
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 20px;
+                font-weight: 600;
+            }
+            
+            @media only screen and (max-width: 991px) {
+                .endere-amabank-footer,
+                .endere-contato-amabank-footer {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 30px;
+                }
+            }
+
+
+
+
+
+
+            /************  FIM AJUSTES FINAIS **************************************/
+            /**************************************************************************/
+            /**************************************************************************/
+            
+            @media only screen and (max-width: 991px) {}
+            /*  celular bem pequeno */
+            
+            @media only screen and (max-width: 340px) {}
+            /* celular pequeno */
+            
+            @media only screen and (min-width: 341px) and (max-width: 375px) {}
+            /* celular medio */
+            
+            @media only screen and (min-width: 376px) and (max-width: 425px) {}
+            /* celular grande*/
+            
+            @media only screen and (min-width: 426px) and (max-width: 575.98px) {}
+            /*  celular grande deitado */
+            
+            @media only screen and (min-width: 576px) and (max-width: 767.98px) {}
+            /*  tablets */
+            
+            @media only screen and (min-width: 768px) and (max-width: 991.98px) {}
+            /*  desktops pequenos */
+            
+            @media only screen and (min-width: 992px) and (max-width: 1199.98px) {}
